@@ -73,7 +73,7 @@ class Scraper
 
     social_info
 =======
-      student_hash[:name] = "student.css("h4").text"
+      student_hash[:name] = student.css("h4").text
       binding.pry
       end
 
