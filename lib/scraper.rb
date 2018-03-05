@@ -5,8 +5,11 @@ require 'pry'
 class Scraper
 
   #name = student.css("h4 .student-name").text
+<<<<<<< HEAD
   #location = student.css("p").text
   #profile_url = student.css("a").attribute("href").value
+=======
+>>>>>>> f4e71cc06bdf4120bc962019d0739dffda3eaf6d
 
   def self.scrape_index_page(index_url)
     html = open(index_url)
@@ -15,6 +18,7 @@ class Scraper
 
     flatiron_students.css(".student-card").each do |student|
       student_hash = Hash.new()
+<<<<<<< HEAD
       student_hash[:name] = student.css("h4").text
       student_hash[:location] = student.css("p").text
       student_hash[:profile_url] = student.css("a").attribute("href").value
@@ -68,6 +72,16 @@ class Scraper
     social_info[:bio] = student.css(".description-holder p").text
 
     social_info
+=======
+      student_hash[:name] = "student.css("h4").text"
+      binding.pry
+      end
+
   end
 
+  def self.scrape_profile_page(profile_url)
+
+>>>>>>> f4e71cc06bdf4120bc962019d0739dffda3eaf6d
+  end
+binding.pry 
 end
