@@ -79,9 +79,9 @@ class Scraper
 
   end
 
-  def self.scrape_profile_page(profile_url)
+  #def self.scrape_profile_page(profile_url)
 
 #>>>>>>> f4e71cc06bdf4120bc962019d0739dffda3eaf6d
-  end
+  #end
 
-end
+#end
