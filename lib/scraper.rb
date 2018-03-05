@@ -75,7 +75,7 @@ class Scraper
     social_info
 #=======
       student_hash[:name] = student.css("h4").text
-      
+
       end
 
   end
