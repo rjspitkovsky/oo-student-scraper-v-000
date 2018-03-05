@@ -55,7 +55,7 @@ class Scraper
           social_info[:blog] = link
       end
 
-      
+
       # keyword = link.split("/")[2].split(".")
       # if keyword.include?("twitter")
       #   social_info[:twitter] = link
@@ -83,5 +83,5 @@ class Scraper
 
 >>>>>>> f4e71cc06bdf4120bc962019d0739dffda3eaf6d
   end
-binding.pry 
+
 end
