@@ -25,6 +25,7 @@ class Scraper
       students << student_hash
       end
       students
+      binding.pry
   end
 
   def self.scrape_profile_page(profile_url)
@@ -74,7 +75,7 @@ class Scraper
     social_info
 #=======
       student_hash[:name] = student.css("h4").text
-      binding.pry
+      
       end
 
   end
